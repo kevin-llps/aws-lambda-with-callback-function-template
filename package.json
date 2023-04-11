@@ -1,0 +1,16 @@
+{
+  "name": "aws-lambda-with-callback-function-template",
+  "version": "1.0.0",
+  "description": "AWS Lambda template (with callback function as input)",
+  "main": "handler.js",
+  "scripts": {
+    "test": "serverless-bundle test"
+  },
+  "author": "kevin.llps",
+  "license": "ISC",
+  "devDependencies": {
+    "aws-sdk-client-mock": "^2.0.1",
+    "aws-sdk-client-mock-jest": "^2.0.1",
+    "serverless-bundle": "^6.0.0"
+  }
+}
