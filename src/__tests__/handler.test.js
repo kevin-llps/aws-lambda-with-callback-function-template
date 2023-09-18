@@ -1,4 +1,4 @@
-import { hello } from "../../handlers/handler.js";
+import { hello } from "../handler.js";
 
 describe('Handler', () => {
     it('given event should run handler successfully', () => {
